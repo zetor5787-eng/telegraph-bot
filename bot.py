@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 import requests
 
-TOKEN = "YOUR_BOT_TOKEN"
+TOKEN = "8697118542:AAHEFAhe-jAuGS-S9fWezvJmxxIn0ru8K1E"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("📸 Send me a photo. I will give Telegraph link.")
